@@ -8,7 +8,8 @@ services:
     environment:
       POSTGRES_DB: db
       POSTGRES_USER: app
-      POSTGRES_PASSWORD: 123qwerty
+      POSTGRES_PASSWORD: OVFTRO
+      PGDATA: /var/lib/postgresql/data/pgdata
 
 
   adminer:
